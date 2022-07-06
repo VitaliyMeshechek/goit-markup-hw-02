@@ -15,6 +15,7 @@
   --blue-bg-cl: #2196f3;
   --additional-bg-cl: #f5f4fa;
 }
+
 body {
   font-family: var(--main-font);
   color: var(--main-txt-cl);
@@ -225,6 +226,7 @@ body {
   color: var(--additional-txt-cl);
 }
 .footer-maps {
+  font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -232,6 +234,7 @@ body {
 }
 .footer-mail,
 .footer-phone {
+  font-style:normal;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
