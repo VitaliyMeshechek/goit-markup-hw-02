@@ -213,6 +213,11 @@ body {
   color: var(--additional-txt-cl);
 }
 
+.footer-contacts-color:hover,
+.footer-contacts-color:focus {
+  color: var(--additional-txt-cl);
+}
+
 .footer-maps {
   font-style: normal;
   font-size: 14px;
