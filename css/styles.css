@@ -23,7 +23,7 @@ html {
   --dark-bg-cl: #2f303a;
   --grey-bg-cl: #e5e5e5;
   --blue-bg-cl: #2196f3;
-  --additional-bg-cl: #f5f4fa;
+  --additional-bg-cl: #ffffff;
 
   /* others */
   --indent: 30px;
@@ -161,12 +161,12 @@ h6 {
 
 .main-container {
   flex-direction: column;
-  padding-bottom: 198px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .main-title-top {
-  padding-top: 201px;
-  padding-bottom: 31px;
+  margin-bottom: 30px;
 
   font-weight: 900;
   font-size: 44px;
@@ -205,20 +205,28 @@ h6 {
   background-color: var(--additional-bg-cl);
 }
 
+.main-container-second {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .main-description {
   display: flex;
   gap: 30px;
-  padding-top: 94px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.main-container-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .container-list {
   display: flex;
   gap: 8px;
-  padding-top: 94px;
   margin-top: 0;
-  margin-bottom: 34px;
+  margin-bottom: 56px;
   justify-content: center;
 }
 
@@ -226,7 +234,6 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   gap: var(--indent);
-  padding-bottom: 94px;
   margin-top: 0;
 }
 
@@ -250,7 +257,7 @@ h6 {
 
 .main-title {
   display: flex;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -266,11 +273,14 @@ h6 {
   color: var(--grey-txt-cl);
 }
 
+.main-container-third {
+  padding-bottom: 94px;
+}
+
 .main-title-about {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
-  padding-top: 102px;
+  margin-bottom: 50px;
 
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -281,7 +291,6 @@ h6 {
 .main-list {
   display: flex;
   gap: 30px;
-  padding-bottom: 94px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -296,11 +305,15 @@ h6 {
   background-color: var(--additional-bg-cl);
 }
 
+.main-container-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .team-list {
   display: flex;
   gap: 30px;
   margin: 0;
-  padding-bottom: 86px;
 }
 
 .team-item {
@@ -310,7 +323,7 @@ h6 {
 }
 
 .team-wrapper {
-  padding: 30px 5px;
+  padding: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -327,7 +340,7 @@ h6 {
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .team-text {
@@ -376,6 +389,8 @@ h6 {
 }
 
 .title-portfolio {
+  margin-bottom: 4px;
+
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
@@ -388,11 +403,6 @@ h6 {
 
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 4px;
-}
-
-.text-reset {
-  padding-bottom: 34px;
 }
 
 /* Footer section studio/portfolio */
